@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./Components/layout/Header"
 import AddTodo from "./Components/AddTodo"
 import Todos from "./Components/Todos";
+import PomodoTimer from "./Components/PomodoTimer";
 import { v4 as uuidv4 } from 'uuid';
 
 import "./App.css";
@@ -60,6 +61,7 @@ class App extends React.Component {
           <Header />
           <AddTodo addTodo={this.addTodo}/>
           <Todos todos={this.state.todos} markComplete={this.markComplete} delTodo={this.delTodo}/>
+          <PomodoTimer/>
         </div>
       </div>
     );

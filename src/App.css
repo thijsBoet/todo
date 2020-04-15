@@ -41,3 +41,8 @@ Header {
 .brn:active {
   background: greenyellow;
 }
+
+.PomodoTimer {
+  text-align: center;
+  margin-top: 35px;
+}
