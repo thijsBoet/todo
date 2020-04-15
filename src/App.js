@@ -11,7 +11,7 @@ class App extends React.Component {
     todos: [
       {
         id: uuidv4(),
-        title: "Program React",
+        title: "Program",
         completed: false,
       },
       {
