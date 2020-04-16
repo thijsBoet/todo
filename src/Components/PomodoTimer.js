@@ -38,6 +38,7 @@ class PomodoTimer extends Component {
     return (
       <div>
         <h2 className="PomodoTimer">PomodoTimer: { minutes }:{ seconds < 10 ? `0${ seconds }` : seconds }</h2>
+        
       </div>
     )
   }
